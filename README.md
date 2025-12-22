@@ -68,7 +68,7 @@ Built in Tableau Desktop:
 ### Open and refresh the dashboard
 1. Open the packaged Tableau workbook (`.twbx`)
 2. Connect/login to the Azure SQL database (`db30`)
-      #Note: requires UW login info
+      Note: requires UW login info
 4. In Tableau: **Data → Refresh All Extracts** (or Refresh if live) 
 
 ### Add a new game (self-updating loop)
