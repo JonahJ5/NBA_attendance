@@ -25,18 +25,24 @@ This project is intentionally “self-updating”:
    - `FormInput` 
 
 2) **Microsoft Forms + Power Automate**
+   - https://forms.office.com/r/m10eyAi2cN
    - User enters: home team, away team, date, attendance, and winner
    - Flow writes the row to `FormInput` and derives a consistent `WinnerTeamName` 
 
 3) **Tableau Desktop**
+   - https://public.tableau.com/views/nbaproject_17651568642560/NBAAttendanceDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
    - Uses **Custom SQL** to union historical games + form-entered games into a single “Games+” source
-   - Historical winner IDs are translated to `WinnerTeamName` via `TeamHistories`; form rows already store `WinnerTeamName` 
+   - Historical winner IDs are translated to `WinnerTeamName` via `TeamHistories`; form rows already store `WinnerTeamName`
+  
+4) **Tableau Storyboard**
+   - https://public.tableau.com/app/profile/jonah.jutzi/viz/nbaproject_17651568642560/NBAAttendanceStoryboard
+   - Guides users through the process of selecting KPIs and creating the final dashboard
 
 ---
 
 ## Data scope
 - **Regular-season NBA vs. NBA games only** (excludes preseason/playoffs and non-NBA opponents)
-- **Dates:** on/after **2003-10-20** through **April 2025** 
+- **Dates:** '03 Season - Current
 - **Missing attendance** games excluded
 - Seasons labeled like `'03-04' ... '24-25'` and defined as **Oct–Apr**
 
