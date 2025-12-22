@@ -13,7 +13,7 @@ For any selected NBA team, the dashboard helps answer:
 
 ---
 
-##Dataset:
+Dataset:
 https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores?select=PlayerStatistics.csv
 
 ## Architecture (end-to-end)
