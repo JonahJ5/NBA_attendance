@@ -76,6 +76,6 @@ Built in Tableau Desktop:
 2. Enter: home team, away team, date, attendance, winner
 3. Submit → Power Automate writes into `dbo.FormInput`
 4. Refresh Tableau → the new game appears in the dashboard
-   # OR alternatively, pull data from Kaggle again
+OR alternatively, pull data from Kaggle again
 
 
