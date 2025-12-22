@@ -1,4 +1,4 @@
-# NBA_attendance
+# NBA Attendance
 
 # NBA Attendance Analytics & Self-Updating Dashboard (Tableau + Azure SQL)
 
