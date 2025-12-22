@@ -73,9 +73,11 @@ Built in Tableau Desktop:
 
 ### Add a new game (self-updating loop)
 1. Open the Microsoft Form
-2. Enter: home team, away team, date, attendance, winner
-3. Submit → Power Automate writes into `dbo.FormInput`
-4. Refresh Tableau → the new game appears in the dashboard
-OR alternatively, pull data from Kaggle again
+   a. Enter: home team, away team, date, attendance, winner
+   b. Submit → Power Automate writes into `dbo.FormInput`
+   c. Refresh Tableau → the new game appears in the dashboard
+2. OR alternatively, pull data from Kaggle again
+   a. Download Kaggle zip folder
+   b. Replace current datasets with updated data
 
 
