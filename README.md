@@ -4,6 +4,10 @@
 
 Proof-of-concept (POC) BI solution for NBA team business ops & ticketing: centralizes historical game-level attendance data in the cloud, lets staff add new games through a form, and surfaces insights via a Tableau dashboard + storyboard.
 
+## Preview
+
+![NBA attendance dashboard preview](assets/dashboard-preview.png)
+
 ## What this does
 For any selected NBA team, the dashboard helps answer:
 - How average **home** and **away** attendance changes by **season**
