@@ -41,13 +41,13 @@ This project is intentionally self-updating:
    - Current and historical teams such as the Bobcats and SuperSonics are included for older seasons
 
 4. **Tableau Desktop**
-   - https://public.tableau.com/views/nbaproject_17651568642560/NBAAttendanceDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+   - https://public.tableau.com/app/profile/jonah.jutzi/viz/NBA_attendance/NBAAttendanceDashboard
    - Uses **Custom SQL** to union historical games + form-entered games into a single `Games+` source
    - Historical winner IDs are translated to `WinnerTeamName`; form rows already store `WinnerTeamName`
    - Joins team assets into home/away logo fields for opponent tables and selected-team branding
 
 5. **Tableau Storyboard**
-   - https://public.tableau.com/app/profile/jonah.jutzi/viz/nbaproject_17651568642560/NBAAttendanceStoryboard
+   - https://public.tableau.com/app/profile/jonah.jutzi/viz/NBA_attendance/NBAAttendanceStoryboard
    - Shows the analysis path behind the final dashboard
 
 ---
